@@ -37,7 +37,8 @@ const BlogSlugPage = async ({ params: { slug } }) => {
 
   if (!post) {
     console.log(`Failed to find post for slug: ${slug}`)
-    redirect('/blog')
+    // redirect('/blog')
+    redirect('/posts')
   }
 
   const [
