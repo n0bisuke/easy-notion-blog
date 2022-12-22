@@ -11,7 +11,7 @@ const NEXT_PUBLIC_SITE_TITLE = 'のびすけブログ'
 const NEXT_PUBLIC_SITE_DESCRIPTION = '日記とかも入れてみようと思います。'
 const BLOG_INDEX_CACHE = path.resolve('.blog_index_data')
 const NUMBER_OF_POSTS_PER_PAGE = 10
-console.log(`test::`,NEXT_PUBLIC_GA_TRACKING_ID);
+console.log(`test`,NEXT_PUBLIC_GA_TRACKING_ID, NEXT_PUBLIC_URL);
 
 module.exports = {
   NOTION_API_SECRET,
