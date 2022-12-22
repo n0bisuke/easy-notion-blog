@@ -13,6 +13,7 @@ const BLOG_INDEX_CACHE = path.resolve('.blog_index_data')
 const NUMBER_OF_POSTS_PER_PAGE = 10
 console.log(`test`,NEXT_PUBLIC_GA_TRACKING_ID, NEXT_PUBLIC_URL);
 
+
 module.exports = {
   NOTION_API_SECRET,
   DATABASE_ID,
