@@ -9,6 +9,7 @@ const RootLayout = ({
 }: {
   children: React.ReactNode,
 }) => (
+  
   <html lang="ja" prefix="og: https://ogp.me/ns#">
     <body>
       <div className={styles.container}>
