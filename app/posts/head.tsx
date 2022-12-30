@@ -5,5 +5,4 @@ const BlogHead = () => (
   <DocumentHead title="Blog" path="/posts" />
 )
 
-export const dynamic = 'force-dynamic' 
 export default BlogHead

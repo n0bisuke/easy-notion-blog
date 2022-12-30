@@ -23,3 +23,4 @@ const RootLayout = ({
 )
 
 export default RootLayout
+export const dynamic = 'force-dynamic'
